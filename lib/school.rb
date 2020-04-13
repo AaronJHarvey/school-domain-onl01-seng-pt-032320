@@ -10,8 +10,8 @@ def add_student(name, year)
 if @roster == {} 
   @roster[year] = name 
 else 
-  @roster[year] <<
-
+  @roster[year] << name 
+end
 end
 
 
