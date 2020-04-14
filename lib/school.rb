@@ -18,4 +18,8 @@ def grade(year)
   puts 
   @roster[year]
 end
+
+def sort 
+  @roster.sort 
+end
 end
