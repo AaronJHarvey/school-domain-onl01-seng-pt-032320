@@ -8,7 +8,8 @@ def initialize(name)
 
 
 def add_student(name, year)
-if @roster.include?(year) == FALSE
+if @roster.include?(year) == false 
+  
 end
 end
 
