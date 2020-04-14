@@ -10,7 +10,6 @@ def add_student(name, year)
 @roster[year] = []
 @roster[year] << name
 end
-end
 
 def grade(year)
   puts school[year]
