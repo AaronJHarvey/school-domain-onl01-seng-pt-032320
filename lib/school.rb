@@ -7,8 +7,13 @@ def initialize(name)
   end
 
 def add_student(name, year)
-@roster[year] = []
+if @roster.empty? 
+  puts 
+  @roster[year] = []
 @roster[year] << name
+else 
+  
+end
 end
 
 
