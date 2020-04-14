@@ -16,6 +16,6 @@ end
 
 def grade(year)
   puts 
-  [name]
+  @roster
 end
 end
