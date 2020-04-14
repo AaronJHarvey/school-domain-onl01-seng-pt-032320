@@ -13,7 +13,7 @@ if @roster.include?(year)
 @roster[year] << name 
 else
   @roster[year] = []
-  @roster[year] 
+  @roster[year] << name
 end
 
 
