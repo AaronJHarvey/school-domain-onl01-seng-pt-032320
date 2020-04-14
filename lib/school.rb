@@ -6,14 +6,14 @@ def initialize(name)
   @roster = {}
   end
 
-  def add_student(name, grade)
-    @name = name
-    @grade = grade
-    if @roster.include?(grade) == false
-      @roster[grade] = []
-    end
-    @roster[grade] << name
-  end
+
+def add_student(name, year)
+if @roster.include?(year) == false 
+  @roster[year] = []
+else 
+  @roster[year] << name
+end
+end
 
 
 end
