@@ -18,3 +18,4 @@ def grade(year)
   puts 
   [name]
 end
+end
