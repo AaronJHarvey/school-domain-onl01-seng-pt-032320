@@ -8,7 +8,7 @@ def initialize(name)
 
 
 def add_student(name, year)
-if @roster.empty? 
+if @roster.include?(year) 
   puts 
   @roster[year] = []
 @roster[year] << name
