@@ -8,7 +8,8 @@ def initialize(name)
 
 def add_student(name, year)
 if @roster == {} 
-puts @roster[year] = [name]  
+@roster[year] = []
+@roster[year] << [name]
 else 
   @roster[year] << name 
 end
