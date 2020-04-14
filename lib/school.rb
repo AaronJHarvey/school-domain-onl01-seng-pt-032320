@@ -11,6 +11,7 @@ if @roster == {}
 @roster[year] = []
 @roster[year] << [name]
 end
+end
 
 def grade(year)
   puts school[year]
