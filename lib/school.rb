@@ -15,6 +15,7 @@ else
   @roster[year] = []
   @roster[year] << [name]
 end
+end
 
 
 end
