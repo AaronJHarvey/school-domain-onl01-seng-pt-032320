@@ -10,7 +10,10 @@ def initialize(name)
 def add_student(name, year)
 if @roster.include?(year) 
   puts 
-@
+@roster[year] << name 
+else
+  @roster[year] = []
+  @roster[year] 
 end
 
 
