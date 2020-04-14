@@ -11,7 +11,6 @@ if @roster.empty?
   puts 
   @roster[year] = []
 @roster[year] << name
-else 
   
 end
 end
