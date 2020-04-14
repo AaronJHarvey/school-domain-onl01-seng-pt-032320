@@ -14,5 +14,9 @@ else
 end
 end
 
+def grade(year)
+  puts school[year]
+end
+
 
 end
