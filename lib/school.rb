@@ -6,6 +6,7 @@ def initialize(name)
   @roster = {}
   end
 
+
 def add_student(name, year)
 if @roster.empty? 
   puts 
