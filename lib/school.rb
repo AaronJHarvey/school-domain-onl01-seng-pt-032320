@@ -10,9 +10,8 @@ def initialize(name)
 def add_student(name, year)
 if @roster.include?(year) == false 
   @roster[year] = []
-else 
+end 
   @roster[year] << name
-end
 end
 
 
