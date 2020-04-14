@@ -12,6 +12,7 @@ if @roster == {}
 @roster[year] << name
 else 
   
+  
 end
 end
 
