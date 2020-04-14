@@ -10,9 +10,6 @@ def add_student(name, year)
 if @roster == {} 
 @roster[year] = []
 @roster[year] << [name]
-else 
-  @roster[year] << name 
-end
 end
 
 def grade(year)
