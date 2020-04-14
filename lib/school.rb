@@ -20,6 +20,6 @@ def grade(year)
 end
 
 def sort 
-  @roster.sort 
+  @roster.each do |grade|
 end
 end
