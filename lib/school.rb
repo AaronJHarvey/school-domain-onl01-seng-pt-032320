@@ -12,7 +12,6 @@ if @roster.empty?
   @roster[year] = []
 @roster[year] << name
 else @roster[year] << name
-  
 end
 end
 
