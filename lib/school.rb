@@ -14,5 +14,7 @@ end
   @roster[year] << name
 end
 
-
+def grade(year)
+  puts 
+  [name]
 end
